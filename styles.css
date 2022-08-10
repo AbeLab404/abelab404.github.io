@@ -1,0 +1,217 @@
+body {
+    background: linear-gradient(black 15%, dimgray, darkgray, white);
+    color: black;
+    font-family: sans-serif, serif;
+    line-height: 25px;
+}
+
+.center {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#header {
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: Bahnschrift SemiBold, sans-serif, serif;
+    text-align: left;
+    font-size: 36px;
+    padding-left: 1%;
+}
+
+h2 {
+    font-family: Bahnschrift SemiBold, sans-serif, serif;
+}
+
+h3 {
+    font-family: Bahnschrift SemiBold, sans-serif, serif;
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+    word-spacing: 30px;
+}
+
+button {
+    background-color: white;
+    font-size: 18px;
+    height: 40px;
+    width: auto;
+    transition: 500ms;
+}
+
+.linkedin:hover, .github:hover {
+    cursor: pointer;
+    height: 45px;
+    width: auto;
+}
+
+.linkedin {
+    background-color: #0072b1;
+    color: white;
+    font-weight: bolder;
+}
+
+.email {
+    cursor: default;
+}
+
+.github {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.banner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.section {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+    background: white;
+    font-size: 18px;
+}
+
+#section-bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 15px;
+    background: white;
+    font-size: 18px;
+}
+
+#photo {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.blank {
+    padding: 30px;
+}
+
+#flex-project {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 80%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 15px;
+    background: white;
+    font-size: 18px;
+}
+
+.project {
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px lightgray;
+    border: 2px solid lightgray;
+    max-width: 450px;
+}
+
+.project-photo {
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#section-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 15px;
+    background: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+#play {
+    width: 100px;
+    align-self: center;
+}
+
+#play:hover {
+    cursor: pointer;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    justify-content: center;
+    grid-gap: 10px;
+ }
+ 
+ #grid-container > div {
+    text-align: center;
+    background: lightgray;
+    border: 2px solid gray;
+    padding: 20px;
+ }
+
+footer {
+    padding-top: 5px;
+    background: white;
+}
+
+@media all and (max-width: 1000px) {
+    h1 {
+        line-height: 30px;
+    }
+
+    #flex-project {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-bio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
