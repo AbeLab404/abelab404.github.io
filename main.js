@@ -3,7 +3,7 @@ function linkedin(){
 }
 
 function github(){
-    window.open("https://github.com/al5929", "_blank");
+    window.open("https://github.com/AbeLab404/", "_blank");
 }
 
 var time = 2000;
