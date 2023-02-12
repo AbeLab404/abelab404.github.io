@@ -49,10 +49,9 @@ button {
     transition: 500ms;
 }
 
-.linkedin:hover, .github:hover {
+.linkedin:hover,
+.github:hover {
     cursor: pointer;
-    height: 45px;
-    width: auto;
 }
 
 .linkedin {
@@ -175,14 +174,14 @@ button {
     padding: 20px;
     justify-content: center;
     grid-gap: 10px;
- }
- 
- #grid-container > div {
+}
+
+#grid-container>div {
     text-align: center;
     background: lightgray;
     border: 2px solid gray;
     padding: 20px;
- }
+}
 
 footer {
     padding-top: 5px;

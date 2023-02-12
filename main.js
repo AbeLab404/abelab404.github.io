@@ -1,9 +1,9 @@
-function linkedin(){
+function linkedin() {
     window.open("https://www.linkedin.com/in/abraham-labelle/", "_blank");
 }
 
-function github(){
-    window.open("https://github.com/AbeLab404/", "_blank");
+function github() {
+    window.open("https://github.com/abelab404", "_blank");
 }
 
 var time = 2000;
@@ -34,16 +34,16 @@ function game() {
         squares[i] = square.id;
         square.style.background = "deepskyblue";
     }
-    
+
     setTimeout(function () {
         for (let i = 1; i < 10; i++) {
             var square = document.getElementById("square" + i);
             square.style.background = "lightgray";
             square.style.cursor = "pointer";
-            square.addEventListener("click", function() {
+            square.addEventListener("click", function () {
                 this.style.background = "deepskyblue";
                 selected.push(this.id);
-            });        
+            });
         }
     }, time);
 
@@ -56,16 +56,16 @@ function game() {
                 correct = false;
             }
         }
-        
+
         for (let i = 1; i < 10; i++) {
             var square = document.getElementById("square" + i);
-                if (correct) {
-                    square.style.background = "lightgreen";
-                }
-                else {
-                    square.style.background = "red";
-                }
-                square.style.cursor = "default";
+            if (correct) {
+                square.style.background = "lightgreen";
+            }
+            else {
+                square.style.background = "red";
+            }
+            square.style.cursor = "default";
         }
         if (correct) {
             time -= 250;
