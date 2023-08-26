@@ -6,6 +6,10 @@ function github() {
     window.open("https://github.com/abelab404", "_blank");
 }
 
+function weatherApp() {
+    window.open("weather.html", "_blank");
+}
+
 var time = 2000;
 
 function game() {

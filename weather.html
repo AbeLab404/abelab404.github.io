@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <link rel="stylesheet" type="text/css" href="weather-styles.css">
+    <script src="weather.js" async></script>
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <section class="top-banner">
+        <div class="container">
+            <h1 class="heading">Weather App</h1>
+            <p>Input city name to display current weather - Add a country code (e.g. New York,US) to specify country
+            </p> <br>
+            <form>
+                <input type="text" placeholder="Search for a city" autofocus>
+                <button type="submit">SUBMIT</button>
+                <span class="msg"></span>
+            </form>
+        </div>
+    </section>
+    <section class="ajax-section">
+        <div class="container">
+            <ul class="cities"></ul>
+        </div>
+    </section>
+
+</body>
+
+</html>

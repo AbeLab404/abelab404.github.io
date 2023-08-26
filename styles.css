@@ -49,25 +49,34 @@ button {
     transition: 500ms;
 }
 
-.linkedin:hover,
+.linkedin:hover {
+    background: #66b8e4;
+    cursor: pointer;
+}
+
 .github:hover {
+    background: #474747;
     cursor: pointer;
 }
 
 .linkedin {
     background-color: #0072b1;
     color: white;
-    font-weight: bolder;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .email {
     cursor: default;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .github {
     background-color: black;
     color: white;
     font-weight: bold;
+    padding: 10px;
 }
 
 .banner {
@@ -140,6 +149,39 @@ button {
     max-width: 450px;
 }
 
+.weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 50px;
+    border-radius: 15px;
+
+    box-shadow: 3px 3px 3px lightgray;
+    border: 2px solid lightgray;
+    max-width: 450px;
+}
+
+.weather-button {
+    background: #0d0d0d;
+    color: #f2f2f2;
+    padding: 20px;
+    padding-bottom: 60px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.weather-button:hover {
+    background: #333333;
+    cursor: pointer;
+}
+
+.weather-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .project-photo {
     border: 2px solid black;
     display: block;
@@ -196,6 +238,12 @@ footer {
     #flex-project {
         flex-direction: column;
         align-items: center;
+    }
+
+    .weather {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     #section-bio {
