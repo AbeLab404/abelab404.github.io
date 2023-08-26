@@ -64,10 +64,14 @@ button {
     color: white;
     padding: 10px;
     margin-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .email {
     cursor: default;
+    padding: 10px;
+    margin-bottom: 10px;
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -76,6 +80,7 @@ button {
     background-color: black;
     color: white;
     font-weight: bold;
+    padding: 10px;
     padding: 10px;
 }
 
@@ -114,6 +119,7 @@ button {
 }
 
 #photo {
+    width: 300px;
     width: 300px;
     height: auto;
     padding: 10px;
@@ -182,6 +188,7 @@ button {
     width: 50%;
 }
 
+
 .project-photo {
     border: 2px solid black;
     display: block;
@@ -207,6 +214,7 @@ button {
 }
 
 #play:hover {
+    background: lightgray;
     cursor: pointer;
 }
 
@@ -244,6 +252,10 @@ footer {
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+
+    .weather-photo {
+        width: 30%;
     }
 
     #section-bio {
