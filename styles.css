@@ -68,14 +68,6 @@ button {
     margin-bottom: 10px;
 }
 
-.email {
-    cursor: default;
-    padding: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
 .github {
     background-color: black;
     color: white;
@@ -255,7 +247,8 @@ footer {
     }
 
     .weather-photo {
-        width: 30%;
+        height: 20px;
+        width: auto;
     }
 
     #section-bio {
