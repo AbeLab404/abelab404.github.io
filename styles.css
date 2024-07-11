@@ -110,8 +110,12 @@ button {
     font-size: 18px;
 }
 
+#vanguard {
+    width: 200px;
+    height: auto;
+}
+
 #photo {
-    width: 300px;
     width: 300px;
     height: auto;
     padding: 10px;
